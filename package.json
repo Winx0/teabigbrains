@@ -1,0 +1,41 @@
+{
+  "name": "@wins0x/teabigbrains",
+  "version": "1.0.0",
+  "description": "Tea Staking and Validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Winx0/teabigbrains.git"
+  },
+  "keywords": [
+    "staking",
+    "validator",
+    "tea",
+    "protocol"
+  ],
+  "author": "oxwins/daengkoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Winx0/teabigbrains/issues"
+  },
+  "homepage": "https://github.com/Winx0/teabigbrains#readme",
+  "teabigbrains": {
+    "staking": {
+      "minimumStake": 100,
+      "rewardPercentage": 5,
+      "stakingPeriod": 30
+    },
+    "validator": {
+      "requiredStake": 500,
+      "commissionPercentage": 10
+    }
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "teabigbrains": "^1.0.0",
+    "web3": "^1.5.2"
+  }
+}
